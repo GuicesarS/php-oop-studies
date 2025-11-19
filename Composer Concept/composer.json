@@ -1,13 +1,7 @@
 {
-    "name": "guilhermecss/composer",
-    "description": "Teste composer",
     "require": {
-        "dompdf/dompdf": "^3.1"
-    },
-    "authors": [
-        {
-            "name": "Guilherme Soares",
-            "email": "guigasstudy@gmail.com"
-        }
-    ]
+        "cocur/slugify" : "4.6"
+    }
+
+    // composer install
 }
