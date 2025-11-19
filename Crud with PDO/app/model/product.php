@@ -1,10 +1,22 @@
 <?php 
+
+namespace App\Model;
 class Product
 {
-    public $name;
-    public $description;
+    private $id, $name, $description;
 
-    public function getName($name)
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    public function getName()
     {
         return $this->name;
     }
@@ -14,14 +26,14 @@ class Product
         $this->name = $name;
     }
 
-    public function getDescription($description)
+    public function getDescription()
     {
-        return $this->$description;
+        return $this->description;
     }
 
     public function setDescription($description)
     {
-        $this->$description = $description;
+        $this->description = $description;
     }
 }
 ?>
